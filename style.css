@@ -1,7 +1,7 @@
 :root {
-    --Moderate violet: hsl(263, 55%, 52%);
-    --Very dark grayish blue: hsl(217, 19%, 35%);
-    --Very dark blackish blue: hsl(219, 29%, 14%);
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
     font-size: 13px;
     font-family: 'Barlow Semi Condensed', sans-serif; 
 }
@@ -15,10 +15,16 @@ body {
     grid-template-rows: 15fr 35fr 35fr 15fr;
     grid-row-gap: 2.5%;
     grid-column-gap: 2.5%;
+    box-sizing: border-box;
 }
 #daniel {
     grid-column: 2/4;
     grid-row: 2/3;
+    background-color: var(--Moderate-violet);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 2.5%;
 }
 #jonathan {
     grid-column: 4/5;
